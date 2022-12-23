@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --black:#1B1C20;
+    --white:#FFFFFF;
+    --orange:#FF6109;
+    --blue:#4F4FB9;
+}
+::selection{
+    color: var(--white);
+    background: var(--black);
+}
+*{
+    padding: 0;margin: 0;
+    text-decoration: none;list-style: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.position{
+    padding: 20px 100px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family:'DM Sans', sans-serif ;
+
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+}
+.nav-bar .logo img{
+    width: 60px;
+    height: 60px;
+}
+.nav-bar .logo img:nth-child(2){
+    margin-left: 25px;
+}
+.nav-bar .logo h1{
+    color: var(--orange);
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.nav-bar nav ul,
+.nav-bar nav ul li a{
+    display: flex; 
+    column-gap: 25px;
+    color: var(--black);
+    font-size: 17px;
+}
+.nav-bar nav ul li a:hover{
+    color: var(--blue);
+    transform: scale(1.1);
+}
+.nav-bar .btn{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.nav-bar .btn a{
+    font-size: 14px;
+    color: var(--black);
+}
+.nav-bar .btn button,
+.nav-bar .btn button a{
+    padding:10px;
+    font-size: 14px;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
+}
