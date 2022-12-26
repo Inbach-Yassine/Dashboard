@@ -247,6 +247,20 @@ body {
     align-items: baseline;
     column-gap: 20px;
 }
-.thirt-partie .container-box .groups .box .para p{
+.thirt-partie .container-box .groups .box .para p,
+.thirt-partie .container-box .groups .box .para{
    width: 200px;
+   margin-left: 0;
+}
+.thirt-partie .container-box .groups .box > span{
+   font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 23px;
+    background:#b5b5c4;
+    color: var(--white);
+}
+.thirt-partie .container-box .groups .box:nth-child(1) > span{
+  padding: 10px 17px;
 }
