@@ -211,7 +211,7 @@ footer .container-box img {
   color: var(--blue);
   font-weight: 700;
 }
-.thirt-partie{
+.thirt-partie {
   padding: 55px 0;
   display: flex;
   column-gap: 10em;
@@ -270,22 +270,22 @@ footer .container-box img {
   width: 370px;
   column-gap: 2em;
 }
-.vos-events{
+.vos-events {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
-  background: #4F4FB9;
+  background: #4f4fb9;
 }
 
-.vos-events .container{
+.vos-events .container {
   display: flex;
   align-items: center;
 }
-.vos-events .container .box{
+.vos-events .container .box {
   width: 350px;
 }
-.vos-events .container .box h1{
+.vos-events .container .box h1 {
   font-weight: 400;
   font-family: "Abel", sans-serif;
   font-size: 28px;
@@ -293,49 +293,48 @@ footer .container-box img {
   color: var(--white);
   padding-bottom: 12px;
 }
-.vos-events .container .box h1 > span{
+.vos-events .container .box h1 > span {
   color: var(--orange);
 }
-.vos-events .container .box p{
+.vos-events .container .box p {
   font-size: 13px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
   color: var(--white);
 }
-footer{
+footer {
   font-family: "DM Sans", sans-serif;
   padding: 40px 0 10px 0;
 }
 footer .container-box,
 footer .container-box .para,
-footer .container-box nav ul{
+footer .container-box nav ul {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-bottom: 20px;
 }
 footer .container-box .para,
 footer .container-box nav ul,
-footer .copyright .para{
+footer .copyright .para {
   column-gap: 15px;
-
 }
-footer .container-box nav ul a:hover{
+footer .container-box nav ul a:hover {
   color: var(--blue);
   font-size: 20px;
 }
 footer .container-box .para p,
 footer .copyright .para p,
-footer .copyright p{
+footer .copyright p {
   font-weight: 500;
   font-size: 14px;
   color: var(--black);
 }
-footer .border{
-  border-bottom: 1.4px dashed #D4D4D8;
+footer .border {
+  border-bottom: 1.4px dashed #d4d4d8;
 }
 footer .copyright,
-footer .copyright .para{
+footer .copyright .para {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
