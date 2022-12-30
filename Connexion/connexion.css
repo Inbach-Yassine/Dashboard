@@ -1,0 +1,17 @@
+@import "/index.css";
+body{
+    overflow: hidden;
+}
+.nav-bar{
+    padding: 5px 35px 0 35px;
+    background: local;
+}
+.nav-bar .fa-arrow-left-long{
+    font-size: 22px;
+    color: var(--orange);
+}
+.nav-bar .fa-arrow-left-long:hover{
+    color: var(--blue);
+    transform: scale(1.1);
+    cursor: pointer;
+}
