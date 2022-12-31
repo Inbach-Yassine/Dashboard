@@ -1,17 +1,111 @@
 @import "/index.css";
-body{
-    overflow: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto:wght@400;700&display=swap");
+body {
+  overflow: hidden;
 }
-.nav-bar{
-    padding: 5px 35px 0 35px;
-    background: local;
+.nav-bar {
+  position: absolute;
+  top: 0;
+  padding: 5px 35px 0 35px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.nav-bar .fa-arrow-left-long{
-    font-size: 22px;
-    color: var(--orange);
+.nav-bar nav ul li a {
+  font-size: 23px;
+  font-weight: 700;
 }
-.nav-bar .fa-arrow-left-long:hover{
-    color: var(--blue);
-    transform: scale(1.1);
-    cursor: pointer;
+.nav-bar .fa-arrow-left-long {
+  font-size: 22px;
+  color: var(--black);
+}
+.nav-bar .fa-arrow-left-long:hover {
+  color: var(--blue);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section {
+  display: flex;
+  column-gap: 7em;
+}
+section .img img {
+  width: 650px;
+}
+section .second-partie {
+  padding-top: 8em;
+}
+section .second-partie h5 {
+  font-weight: 400;
+  font-size: 13px;
+  color: #2d3748;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 6px;
+}
+section .second-partie p {
+  font-size: 23px;
+  font-weight: 700;
+  color: #1a202c;
+  font-family: "Quicksand", sans-serif;
+  padding-bottom: 15px;
+}
+section .second-partie form .input {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+section .second-partie form .input label,
+section .second-partie #para form label {
+  padding-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4a5568;
+}
+section .second-partie form .input input::placeholder {
+  font-size: 12px;
+  color: var(--black);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+section .second-partie form input {
+  border: 1.5px solid #e8e8e8;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+section .second-partie #para form {
+  display: flex;
+  align-items: baseline;
+  column-gap: 10px;
+}
+section .second-partie #para {
+  display: flex;
+  padding-top: 5px;
+  column-gap: 35px;
+  align-items: baseline;
+}
+section .second-partie #para a {
+  color: var(--orange);
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+section .second-partie .btn {
+  margin: 20px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+section .second-partie .btn button,
+section .second-partie .btn button a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 12px;
+  font-size: 14px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 10px;
+}
+section .second-partie .btn button a .fa-google {
+  margin-right: 10px;
+  font-size: 15px;
+  color: var(--blue);
 }
