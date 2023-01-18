@@ -1,0 +1,64 @@
+@import "/Demos/demos.css";
+@import "/index.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    overflow: hidden;
+}
+.contact{
+    padding: 15px 0px 0 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 8em;
+}
+.contact .box-1 h1{
+padding-bottom: 10px;
+}
+.contact .box-1 p{
+text-align: initial;
+    color: grey;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+.contact .box-1 p span{
+    color: var(--blue);
+    font-size: 15px;
+}
+.contact .box-1 form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-bottom: 20px;
+}
+.contact .box-1 form input,.contact .box-1 form textarea{
+    padding: 6px 0;
+    border-bottom: 1.5px solid var(--blue);
+    width: 80%;
+    resize: none;
+}
+.contact .box-1 form input::placeholder,.contact .box-1 form input[type="text"],.contact .box-1 form input[type="number"],.contact .box-1 form textarea::placeholder {
+    color: grey;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+.contact .box-1 button{
+  padding: 12px 20px;
+  color: var(--white);
+  background: var(--blue);
+  border-radius: 1em;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  cursor:pointer;
+}
+.contact .box-2 img{
+    width: 400px;
+    height: 400px;
+}
+footer{
+    padding: 0 100px;
+  }
+  footer .para p{
+    padding-bottom: 0;
+  }
